@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Adobe_Font_Metrics.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331566705760" remote="131000332200000000" Dst="1" />
+<file name="Encoding_Map.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331566965946" remote="131000332200000000" Dst="1" />
+<file name="font.cls.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331567206100" remote="131000332200000000" Dst="1" />
+<file name="Font.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331567426241" remote="131000332200000000" Dst="1" />
+<file name="Font_Binary_Stream.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331567766504" remote="131000332200000000" Dst="1" />
+<file name="Font_EOT.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331568026695" remote="131000332200000000" Dst="1" />
+<file name="Font_EOT_Header.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331568246840" remote="131000332200000000" Dst="1" />
+<file name="Font_Glyph_Outline.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331568466993" remote="131000332200000000" Dst="1" />
+<file name="Font_Glyph_Outline_Component.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331568667112" remote="131000332200000000" Dst="1" />
+<file name="Font_Glyph_Outline_Composite.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331568917303" remote="131000332200000000" Dst="1" />
+<file name="Font_Glyph_Outline_Simple.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331569187470" remote="131000332200000000" Dst="1" />
+<file name="Font_Header.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331569407650" remote="131000332200000000" Dst="1" />
+<file name="Font_OpenType.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331569597778" remote="131000332200000000" Dst="1" />
+<file name="Font_OpenType_Table_Directory_Entry.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331569787898" remote="131000332200000000" Dst="1" />
+<file name="Font_Table.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331570018054" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_cmap.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331570288260" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_Directory_Entry.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331570518399" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_glyf.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331570768595" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_head.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331570968718" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_hhea.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331571188893" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_hmtx.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331571389007" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_kern.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331571619172" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_loca.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331571849332" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_maxp.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331572039474" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_name.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331572279633" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_name_Record.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331572529829" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_os2.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331572830089" remote="131000332200000000" Dst="1" />
+<file name="Font_Table_post.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331573710708" remote="131000332200000000" Dst="1" />
+<file name="Font_TrueType.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331575011556" remote="131000332200000000" Dst="1" />
+<file name="Font_TrueType_Collection.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331575902173" remote="131000332200000000" Dst="1" />
+<file name="Font_TrueType_Header.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331576612776" remote="131000332200000000" Dst="1" />
+<file name="Font_TrueType_Table_Directory_Entry.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331577273190" remote="131000332200000000" Dst="1" />
+<file name="Font_WOFF.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331577993757" remote="131000332200000000" Dst="1" />
+<file name="Font_WOFF_Header.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331578614117" remote="131000332200000000" Dst="1" />
+<file name="Font_WOFF_Table_Directory_Entry.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/cahnrs-api-pdf/" local="131000331579354587" remote="131000332200000000" Dst="1" />
+</dwsync>

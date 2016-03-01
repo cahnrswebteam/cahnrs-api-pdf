@@ -1,0 +1,53 @@
+/* CSS Document */
+
+a {
+	color: #981e32;
+	text-decoration: none;
+}
+
+.logo-banner {
+	border-bottom: 1px solid #999;
+}
+
+.logo-banner h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.logo-banner td {
+	vertical-align: top;
+}
+
+.logo-banner td.title-text {
+	vertical-align: top;
+	text-align: right;
+}
+
+.logo-banner .ext-logo {
+	padding-bottom: 10px;
+}
+
+.logo-banner .ext-logo img {
+	width: 250px;
+	height: auto;
+}
+
+.pub-title {
+	padding: 20px 0;
+}
+
+.pub-title h1 {
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+
+.pub-title .author {
+	padding: 10px 0 0;
+	
+}
+
+
+
+
+

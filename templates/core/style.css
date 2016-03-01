@@ -1,0 +1,32 @@
+body {
+	color: #555;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.content-width-wide {
+	width: 745px;
+	margin: 0 0 0 -15px;
+}
+.row,
+.content-width {
+	width: 725px;
+}
+
+.row {
+	padding-bottom: 18px;
+}
+
+.row.halves .column {
+	display: inline-block;
+	width: 48%;
+}
+.row.halves .column.one {
+	margin-right: 2%;
+}
+.row.halves .column.two {
+	margin-left: 2%;
+}
+
+
