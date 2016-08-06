@@ -6,9 +6,11 @@ class Dynamic_Request extends Request {
 		
 		$this->create_pdf();
 		
-		$this->stream_pdf();
+		$this->do_response();
 		
-		$this->delete_pdf();	
+		//$this->stream_pdf();
+		
+		//$this->delete_pdf();	
 		
 	} // end if
 	

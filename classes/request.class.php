@@ -8,7 +8,11 @@ class Request {
 	
 	protected $folder = 'pdfs';
 	
+	protected $folder_dir = '';
+	
 	protected $file_path = '';
+	
+	protected $file_url = 'http://134.121.225.236/api/pdf/cahnrs-api-pdf/';
 	
 	
 	public function the_request(){
@@ -36,7 +40,7 @@ class Request {
 		
 		if ( ! empty( $_GET['filename'] ) ){
 			
-			$this->filename = $_GET['filename'];
+			$this->filename = $_GET['filename'] . '.pdf';
 			
 		} else {
 			
@@ -44,20 +48,30 @@ class Request {
 			
 		}// end if
 		
-		$this->folder =  dirname( dirname( __FILE__ ) ). '/' . $this->folder;
+		$this->folder_dir =  dirname( dirname( __FILE__ ) ) . '/' . $this->folder;
 		
 		if ( ! empty( $_GET['folder'] ) ){
 			
 			$this->folder .=  '/' . $_GET['folder'];
 			
+			$this->folder_dir .=  '/' . $_GET['folder'];
+			
 		} // end if 
 		
-		$this->file_path = $this->folder . '/' . $this->filename;
+		$this->file_path = $this->folder_dir . '/' . $this->filename;
 		
 	} // end set_request
 	
 	
 	protected function create_pdf(){
+		
+		$ex = $this->create_pdf_exec();
+		
+		return exec( $ex );
+		
+	} // end create pdf
+	
+	protected function create_pdf_exec(){
 		
 		$ex = array( 
 			'c:/wkhtmltopdf/bin/wkhtmltopdf.exe',
@@ -66,20 +80,20 @@ class Request {
 			'-T 0mm',
 			'-B 0mm',
 			'--page-size letter',
-			$this->url,
+			urldecode( $this->url ),
 			$this->file_path, 
 		);
 		
-		return exec( implode( ' ' , $ex ) );
+		return implode( ' ' , $ex );
 		
-	} // end create pdf
+	}
 	
 	
 	protected function create_directory(){
 		
-		if( ! file_exists( $this->folder  ) ) { 
+		if( ! file_exists( $this->folder_dir  ) ) { 
 				
-			mkdir( $this->folder ); 
+			mkdir( $this->folder_dir ); 
 		
 		} // end if
 		
@@ -107,5 +121,17 @@ class Request {
 		} // end if
 		
 	} // end delete pdf
+	
+	
+	protected function do_response(){
+		
+		$json = array(
+			'file' => $this->file_url . $this->folder . '/' . $this->filename,
+			'file_size' => filesize( $this->file_path ),
+		);
+		
+		echo json_encode( $json );
+		
+	}
 	
 } 
